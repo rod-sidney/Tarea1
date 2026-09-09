@@ -38,4 +38,5 @@ _(se completa durante las semanas 2 a 4)_
 
 | # | Fecha | Hash | Mensaje | Zona | Cambio |
 |---|---|---|---|---|---|
-| 1 | 
+| 1 | 2026-09-08 | b41614f | Creación de la estructura base del repositorio | Global | Carpetas |
+
