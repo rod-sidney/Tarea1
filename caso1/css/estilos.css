@@ -1,10 +1,10 @@
 :root {
     --color-claro: #f8f6f1;
-    --color-oscuro: #111111;
+    --color-oscuro: #20210A;
 
-    --color-verde-claro: #a7d7b8;
-    --color-verde-medio: #90AD76;
-    --color-verde-oscuro: #2B3820;
+    --color-verde-claro: #94BF72;
+    --color-verde-medio: #759928;
+    --color-verde-oscuro: #2D5201;
 
     --color-alerta-critica: #961111;
     --color-alerta-advertencia: #b44418;
@@ -127,6 +127,8 @@ aside {
 /* Resumen de operaciones */
 .resumen-de-operaciones {
     align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .contenedor-indicadores {
@@ -138,7 +140,7 @@ aside {
 
 .indicador {
     background-color: var(--color-verde-medio);
-    color: var(--color-oscuro);
+    color: var(--color-claro);
     border-radius: 0.5rem;
     text-align: center;
     display: flex;
@@ -148,6 +150,11 @@ aside {
 }
 
 /* Misiones activas */
+.misiones-activas h2, .equipos-cientificos h2 .agenda h2 {
+    text-align: center;
+    justify-content: center;
+}
+
 .contenedor-misiones {
     font-size: 0.85rem;
     display: grid;
@@ -156,7 +163,7 @@ aside {
 }
 
 .mision {
-    background-color: var(--color-verde-medio);
+    background-color: var(--color-verde-claro);
     color: var(--color-oscuro);
     border-radius: 0.5rem;
     text-align: center;
@@ -166,12 +173,14 @@ aside {
     height: 100%;
 }
 
-.estado-en-progreso {
+.estado-en-progreso,
+.estado-en-base {
     color: var(--color-estado-progreso);
     font-weight: bold;
 }
 
-.estado-pendiente {
+.estado-pendiente,
+.estado-en-campo {
     color: var(--color-estado-pendiente);
     font-weight: bold;
 }
@@ -180,6 +189,38 @@ aside {
     color: var(--color-estado-completada);
     font-weight: bold;
 }
+
+/* Equipos cientificos */
+.equipos-cientificos h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-equipos-cientificos {
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaciado-sm);
+}
+
+.equipo {
+    background-color: var(--color-verde-medio);
+    color: var(--color-claro);
+    border-radius: 0.5rem;
+    padding: var(--espaciado-sm);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Agenda */
+/*.contenedor-agenda {
+    list-style: none;
+    padding: 0;
+
+}*/
 
 /* Alertas */
 .alertas-sistema {
@@ -290,6 +331,12 @@ aside {
         height: 100%;
     }
 
+    /* Equip[os cientificos */
+    .contenedor-equipos-cientificos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--espaciado-sm);
+    }
 
     .alertas-sistema {
         position: sticky;
