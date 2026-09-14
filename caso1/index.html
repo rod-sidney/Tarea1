@@ -2,227 +2,242 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Expedición Bosque Nuboso 2026</title>
-
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
 
 <body>
 
-    <header>
+    <header class="main-header">
 
         <h1>Expedición Bosque Nuboso 2026</h1>
 
-        <span><strong>Ubicación: </strong>Estación Biológica Monteverde</span>
-        <span><strong>Día: </strong>4 de 7</span>
-        <span><strong>Estado: </strong>Operaciones activas</span>
+        <div class="contenedor-info-general">
 
-        <nav aria-label="Principal">
+            <span><strong>Ubicación: </strong>Estación Biológica Monteverde</span>
+            <span><strong>Día: </strong>4 de 7</span>
+            <span><strong>Estado: </strong>Operaciones activas</span>
+
+        </div>
+        
+        <nav aria-label="navegación-principal">
+
             <ul>
                 <li><a href="#resumen-de-operaciones">Resumen</a></li>
                 <li><a href="#misiones-activas">Misiones</a></li>
                 <li><a href="#equipos-cientificos">Equipos</a></li>
                 <li><a href="#alertas-sistema">Alertas</a></li>
-                <li><a href="#proximas-actividades">Próximas Actividades</a></li>
+                <li><a href="#agenda">Agenda</a></li>
             </ul>
+
         </nav>
 
     </header>
 
     <main>
 
-        <section class="resumen-de-operaciones" aria-labelledby="resumen-de-operaciones">
+        <div class="layout-container">
 
-            <h2 id="resumen-de-operaciones">Resumen de Operaciones</h2>
-            <p>Detalles sobre la expedición en el Bosque Nuboso en 2026.</p>
+            <div class="contenido-principal">
 
-            <div class="contenedor-indicadores">
-                <article class="indicador">
-                    <h3>Investigadores activos</h3>
-                    <p>32</p>
-                </article>
+                <section class="resumen-de-operaciones" aria-labelledby="resumen-de-operaciones">
 
-                <article class="indicador">
-                    <h3>Misiones en progreso</h3>
-                    <p>4</p>
-                </article>
+                    <h2 id="resumen-de-operaciones">Resumen de Operaciones</h2>
+                    <p>Detalles sobre la expedición en el Bosque Nuboso en 2026.</p>
 
-                <article class="indicador">
-                    <h3>Misiones completadas</h3>
-                    <p>18</p>
-                </article>
+                    <div class="contenedor-indicadores">
 
-                <article class="indicador">
-                    <h3>Alertas pendientes</h3>
-                    <p>2</p>
-                </article>
+                        <article class="indicador">
+                            <h3>Investigadores activos</h3>
+                            <p>23</p>
+                        </article>
 
-            </div>
+                        <article class="indicador">
+                            <h3>Misiones en progreso</h3>
+                            <p>4</p>
+                        </article>
 
-        </section>
+                        <article class="indicador">
+                            <h3>Misiones completadas</h3>
+                            <p>18</p>
+                        </article>
 
-        <section class="misiones-activas" aria-labelledby="misiones-activas">
+                        <article class="indicador">
+                            <h3>Alertas pendientes</h3>
+                            <p>3</p>
+                        </article>
+                    </div>
 
-            <h2 id="misiones-activas">Misiones Activas</h2>
+                </section>
 
-            <div class="contenedor-misiones">
+                <section class="misiones-activas" aria-labelledby="misiones-activas">
 
-                <article class="mision">
-                    <h3>Misión 1: Monitoreo de anfibios</h3>
-                    <p>Equipo responsable: Biología</p>
-                    <p>Ubicación: Sendero Norte</p>
-                    <p>Hora: 8:30am - 11:30am</p>
-                    <p>Prioridad: Alta</p>
-                    <span class="estado_en_progreso">· Estado: En progreso</span>
-                </article>
+                    <h2 id="misiones-activas">Misiones Activas</h2>
+                    <div class="contenedor-misiones">
 
-                <article class="mision">
-                    <h3>Misión 2: Muestreo de agua</h3>
-                    <p>Equipo responsable: Hidrología</p>
-                    <p>Ubicación: Río Celeste</p>
-                    <p>Hora: 9:00am - 12:00pm</p>
-                    <p>Prioridad: Media</p>
-                    <span class="estado_pendiente">· Estado: Pendiente</span>
-                </article>
+                        <article class="mision">
+                            <h3>Misión 1: Monitoreo de anfibios</h3>
+                            <p>Equipo responsable: Biología</p>
+                            <p>Ubicación: Sendero Norte</p>
+                            <p>Hora: 8:30am - 11:30am</p>
+                            <p>Prioridad: Alta</p>
+                            <span class="estado_en_progreso">· Estado: En progreso</span>
+                        </article>
 
-                <article class="mision">
-                    <h3>Misión 3: Calibración de estación</h3>
-                    <p>Equipo responsable: Meteorología</p>
-                    <p>Ubicación: Torre Central</p>
-                    <p>Hora: 6:00am - 8:00am</p>
-                    <p>Prioridad: Alta</p>
-                    <span class="estado_completada">· Estado: Completada</span>
-                </article>
+                        <article class="mision">
+                            <h3>Misión 2: Muestreo de agua</h3>
+                            <p>Equipo responsable: Hidrología</p>
+                            <p>Ubicación: Río Celeste</p>
+                            <p>Hora: 9:00am - 12:00pm</p>
+                            <p>Prioridad: Media</p>
+                            <span class="estado_pendiente">· Estado: Pendiente</span>
+                        </article>
 
-                <article class="mision">
-                    <h3>Misión 4: Extracción de núcleo</h3>
-                    <p>Equipo responsable: Geología</p>
-                    <p>Ubicación: Sector Volcánico</p>
-                    <p>Hora: 1:00pm - 4:00pm</p>
-                    <p>Prioridad: Baja</p>
-                    <span class="estado_suspendida">· Estado: Suspendida</span>
-                </article>
+                        <article class="mision">
+                            <h3>Misión 3: Calibración de estación</h3>
+                            <p>Equipo responsable: Meteorología</p>
+                            <p>Ubicación: Torre Central</p>
+                            <p>Hora: 6:00am - 8:00am</p>
+                            <p>Prioridad: Alta</p>
+                            <span class="estado_completada">· Estado: Completada</span>
+                        </article>
 
-                <article class="mision">
-                    <h3>Misión 5: Conteo de aves</h3>
-                    <p>Equipo responsable: Biología</p>
-                    <p>Ubicación: Dosel del bosque</p>
-                    <p>Hora: 5:30am - 10:30am</p>
-                    <p>Prioridad: Media</p>
-                    <span class="estado_en_progreso">· Estado: En progreso</span>
-                </article>
+                        <article class="mision">
+                            <h3>Misión 4: Extracción de núcleo</h3>
+                            <p>Equipo responsable: Geología</p>
+                            <p>Ubicación: Sector Volcánico</p>
+                            <p>Hora: 1:00pm - 4:00pm</p>
+                            <p>Prioridad: Baja</p>
+                            <span class="estado_suspendida">· Estado: Suspendida</span>
+                        </article>
 
-            </div>
+                        <article class="mision">
+                            <h3>Misión 5: Conteo de aves</h3>
+                            <p>Equipo responsable: Biología</p>
+                            <p>Ubicación: Dosel del bosque</p>
+                            <p>Hora: 5:30am - 10:30am</p>
+                            <p>Prioridad: Media</p>
+                            <span class="estado_en_progreso">· Estado: En progreso</span>
+                        </article>
 
-        </section>
+                        <article class="mision">
+                            <h3>Misión 6: Mapeo de microcuencas y suelos</h3>
+                            <p>Equipo responsable: Geología</p>
+                            <p>Ubicación: Reserva Santa Elena</p>
+                            <p>Hora: 13:30 - 16:30</p>
+                            <p>Prioridad: Media</p>
+                            <span class="estado_en_progreso">· Estado: Pendiente</span>
+                        </article>
 
-        <section class="equipos-cientificos" aria-labelledby="equipos-cientificos">
+                    </div>
 
-            <h2 id="equipos-cientificos">Equipos Científicos</h2>
+                </section>
 
-            <div class="contenedor-equipos-cientificos">
+                <section class="equipos-cientificos" aria-labelledby="equipos-cientificos">
 
-                <article class="equipo">
-                    <h3>Biología</h3>
-                    <p><strong>Integrantes:</strong> 8</p>
-                    <p><strong>Misión actual:</strong> Monitoreo de anfibios</p>
-                    <p><strong>Próxima actividad:</strong> Análisis de muestras en laboratorio</p>
-                    <span class="estado-en-campo"><strong>Estado:</strong> En campo</span>
-                </article>
+                    <h2 id="equipos-cientificos">Equipos Científicos</h2>
+                    <div class="contenedor-equipos-cientificos">
 
-                <article class="equipo">
-                    <h3>Hidrología</h3>
-                    <p><strong>Integrantes:</strong> 5</p>
-                    <p><strong>Misión actual:</strong> Muestreo de agua</p>
-                    <p><strong>Próxima actividad:</strong> Mantenimiento de equipos de medición</p>
-                    <span class="estado-en-base"><strong>Estado:</strong> En base</span>
-                </article>
+                        <article class="equipo">
+                            <h3>Biología</h3>
+                            <p><strong>Integrantes:</strong> 8</p>
+                            <p><strong>Misión actual:</strong> Monitoreo de anfibios</p>
+                            <p><strong>Próxima actividad:</strong> Análisis de muestras en laboratorio</p>
+                            <span class="estado-en-campo"><strong>Estado:</strong> En campo</span>
+                        </article>
 
-                <article class="equipo">
-                    <h3>Meteorología</h3>
-                    <p><strong>Integrantes:</strong> 4</p>
-                    <p><strong>Misión actual:</strong> Calibración de estación</p>
-                    <p><strong>Próxima actividad:</strong> Emisión de reporte vespertino</p>
-                    <span class="estado-en-campo"><strong>Estado:</strong> En campo</span>
-                </article>
+                        <article class="equipo">
+                            <h3>Hidrología</h3>
+                            <p><strong>Integrantes:</strong> 5</p>
+                            <p><strong>Misión actual:</strong> Muestreo de agua</p>
+                            <p><strong>Próxima actividad:</strong> Mantenimiento de equipos de medición</p>
+                            <span class="estado-en-base"><strong>Estado:</strong> En base</span>
+                        </article>
 
-                <article class="equipo">
-                    <h3>Geología</h3>
-                    <p><strong>Integrantes:</strong> 6</p>
-                    <p><strong>Misión actual:</strong> Extracción de núcleo</p>
-                    <p><strong>Próxima actividad:</strong> Revisión topográfica de ruta</p>
-                    <span class="estado-en-base"><strong>Estado:</strong> En descanso</span>
-                </article>
+                        <article class="equipo">
+                            <h3>Meteorología</h3>
+                            <p><strong>Integrantes:</strong> 4</p>
+                            <p><strong>Misión actual:</strong> Calibración de estación</p>
+                            <p><strong>Próxima actividad:</strong> Emisión de reporte vespertino</p>
+                            <span class="estado-en-campo"><strong>Estado:</strong> En campo</span>
+                        </article>
 
-            </div>
+                        <article class="equipo">
+                            <h3>Geología</h3>
+                            <p><strong>Integrantes:</strong> 6</p>
+                            <p><strong>Misión actual:</strong> Extracción de núcleo</p>
+                            <p><strong>Próxima actividad:</strong> Revisión topográfica de ruta</p>
+                            <span class="estado-en-base"><strong>Estado:</strong> En descanso</span>
+                        </article>
 
-        </section>
+                    </div>
 
-        <aside class="alertas-sistema" aria-labelledby="alertas-sistema">
+                </section>
 
-            <h2 id="alertas-sistema">Alertas del sistema</h2>
+                <section class="agenda" aria-labelledby="agenda">
 
-            <div class="contenedor-alertas-sistema">
+                    <h2 id="agenda">Agenda</h2>
+                    <div class="contenedor-agenda">
 
-                <article class="alerta">
-                    <span class="alerta-critica"><strong>Crítica</strong></span>
-                    <p>
-                        Sensor meteorológico sin conexión en la Torre Central.
-                    </p>
-                </article>
+                        <ul>
+                            <li><time datetime="12:00">12:00pm:</time> Almuerzo grupal (Todos los equipos)</li>
+                            <li><time datetime="13:00">1:00pm:</time> Extracción de núcleo (Geología)</li>
+                            <li><time datetime="14:30">2:30pm:</time> Análisis de muestras (Hidrología)</li>
+                            <li><time datetime="16:00">4:00pm:</time> Reporte vespertino de clima (Meteorología)</li>
+                            <li><time datetime="17:00">5:00pm:</time> Reunión de coordinación diaria (Líderes de equipo)
+                            </li>
+                        </ul>
 
-                <article class="alerta">
-                    <span class="alerta-informativa"><strong>Informativa</strong></span>
-                    <p>
-                        Lluvia intensa pronosticada en el sector norte para las próximas horas.
-                    </p>
-                </article>
+                    </div>
 
-                <article class="alerta">
-                    <span class="alerta-advertencia"><strong>Advertencia</strong></span>
-                    <p>
-                        Nivel bajo de batería en equipo de radiocomunicación del grupo Hidrología.
-                    </p>
-                </article>
-
-                <article class="alerta">
-                    <span class="alerta-informativa"><strong>Informativa</strong></span>
-                    <p>
-                        Retraso de 30 minutos reportado en el inicio de la misión de Geología.
-                    </p>
-                </article>
+                </section>
 
             </div>
 
-        </aside>
+            <aside class="alertas-sistema" aria-labelledby="alertas-sistema">
 
-        <section class="proximas-actividades" aria-labelledby="proximas-actividades">
+                <h2 id="alertas-sistema">Alertas del sistema</h2>
+                <div class="contenedor-alertas-sistema">
 
-            <h2 id="proximas-actividades">Próximas Actividades</h2>
+                    <article class="alerta">
+                        <span class="alerta-critica"><strong>Crítica</strong></span>
+                        <p>Sensor meteorológico sin conexión en la Torre Central.</p>
+                    </article>
 
-            <div class="contenedor-proximas-actividades">
-                <ol>
-                    <li><time datetime="12:00">12:00pm:</time> Almuerzo grupal (Todos los equipos)</li>
-                    <li><time datetime="13:00">1:00pm:</time> Extracción de núcleo (Geología)</li>
-                    <li><time datetime="14:30">2:30pm:</time> Análisis de muestras (Hidrología)</li>
-                    <li><time datetime="16:00">4:00pm:</time> Reporte vespertino de clima (Meteorología)</li>
-                    <li><time datetime="17:00">5:00pm:</time> Reunión de coordinación diaria (Líderes de equipo)</li>
-                </ol>
-            </div>
+                    <article class="alerta">
+                        <span class="alerta-informativa"><strong>Informativa</strong></span>
+                        <p>Lluvia intensa pronosticada en el sector norte para las próximas horas.</p>
+                    </article>
 
-        </section>
+                    <article class="alerta">
+                        <span class="alerta-advertencia"><strong>Advertencia</strong></span>
+                        <p>Nivel bajo de batería en equipo de radiocomunicación del grupo Hidrología.</p>
+                    </article>
+
+                    <article class="alerta">
+                        <span class="alerta-informativa"><strong>Informativa</strong></span>
+                        <p>Retraso de 30 minutos reportado en el inicio de la misión de Geología.</p>
+                    </article>
+
+                </div>
+
+            </aside>
+
+        </div>
 
     </main>
 
-    <footer>
+    <footer class="main-footer">
 
-        <p>Expedición Bosque Nuboso 2026 · Universidad CENFOTEC</p>
-        <p><a href="mailto:contacto@expedicion.ac.cr">contacto@expedicion.ac.cr</a></p>
-        
+        <div class="footer-content">
+
+            <p>Expedición Bosque Nuboso 2026 &copy; · Universidad CENFOTEC</p>
+            <p><a href="mailto:contacto@expedicion.ac.cr">contacto@expedicion.ac.cr</a></p>
+
+        </div>
+
     </footer>
 
 </body>
