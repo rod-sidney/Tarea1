@@ -21,15 +21,15 @@
             <span><strong>Estado: </strong>Operaciones activas</span>
 
         </div>
-        
+
         <nav aria-label="navegación-principal">
 
             <ul>
                 <li><a href="#resumen-de-operaciones">Resumen</a></li>
                 <li><a href="#misiones-activas">Misiones</a></li>
                 <li><a href="#equipos-cientificos">Equipos</a></li>
-                <li><a href="#alertas-sistema">Alertas</a></li>
                 <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#alertas-sistema">Alertas</a></li>
             </ul>
 
         </nav>
@@ -45,7 +45,6 @@
                 <section class="resumen-de-operaciones" aria-labelledby="resumen-de-operaciones">
 
                     <h2 id="resumen-de-operaciones">Resumen de Operaciones</h2>
-                    <p>Detalles sobre la expedición en el Bosque Nuboso en 2026.</p>
 
                     <div class="contenedor-indicadores">
 
@@ -181,7 +180,7 @@
                     <h2 id="agenda">Agenda</h2>
                     <div class="contenedor-agenda">
 
-                        <ul>
+                        <ul class="actividades-agenda">
                             <li><time datetime="12:00">12:00pm:</time> Almuerzo grupal (Todos los equipos)</li>
                             <li><time datetime="13:00">1:00pm:</time> Extracción de núcleo (Geología)</li>
                             <li><time datetime="14:30">2:30pm:</time> Análisis de muestras (Hidrología)</li>
@@ -196,34 +195,48 @@
 
             </div>
 
-            <aside class="alertas-sistema" aria-labelledby="alertas-sistema">
+            <div class="columna-lateral">
 
-                <h2 id="alertas-sistema">Alertas del sistema</h2>
-                <div class="contenedor-alertas-sistema">
+                <aside class="alertas-sistema" aria-labelledby="alertas-sistema">
+                    <h2 id="alertas-sistema">Alertas del sistema</h2>
+                    <div class="contenedor-alertas-sistema">
+                        <article class="alerta">
+                            <span class="alerta-critica"><strong>Crítica</strong></span>
+                            <p>Sensor meteorológico sin conexión en la Torre Central.</p>
+                        </article>
+                        <article class="alerta">
+                            <span class="alerta-informativa"><strong>Informativa</strong></span>
+                            <p>Lluvia intensa pronosticada en el sector norte para las próximas horas.</p>
+                        </article>
+                        <article class="alerta">
+                            <span class="alerta-advertencia"><strong>Advertencia</strong></span>
+                            <p>Nivel bajo de batería en equipo de radiocomunicación del grupo Hidrología.</p>
+                        </article>
+                        <article class="alerta">
+                            <span class="alerta-informativa"><strong>Informativa</strong></span>
+                            <p>Retraso de 30 minutos reportado en el inicio de la misión de Geología.</p>
+                        </article>
+                    </div>
+                </aside>
 
-                    <article class="alerta">
-                        <span class="alerta-critica"><strong>Crítica</strong></span>
-                        <p>Sensor meteorológico sin conexión en la Torre Central.</p>
-                    </article>
+                <section class="galeria-imagenes" aria-labelledby="titulo-galeria">
+                    <h2 id="titulo-galeria">Galería en Campo</h2>
+                    <div class="contenedor-galeria">
+                        <figure class="cuadro-imagen">
+                            <img src=""
+                                alt="-">
+                            <figcaption>Toma de muestras de suelo.</figcaption>
+                        </figure>
+                        <figure class="cuadro-imagen">
+                            <img src=""
+                                alt="-">
+                            <figcaption>Calibración de la Torre Central.</figcaption>
+                        </figure>
+                    </div>
+                </section>
 
-                    <article class="alerta">
-                        <span class="alerta-informativa"><strong>Informativa</strong></span>
-                        <p>Lluvia intensa pronosticada en el sector norte para las próximas horas.</p>
-                    </article>
+            </div>
 
-                    <article class="alerta">
-                        <span class="alerta-advertencia"><strong>Advertencia</strong></span>
-                        <p>Nivel bajo de batería en equipo de radiocomunicación del grupo Hidrología.</p>
-                    </article>
-
-                    <article class="alerta">
-                        <span class="alerta-informativa"><strong>Informativa</strong></span>
-                        <p>Retraso de 30 minutos reportado en el inicio de la misión de Geología.</p>
-                    </article>
-
-                </div>
-
-            </aside>
 
         </div>
 

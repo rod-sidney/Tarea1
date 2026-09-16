@@ -43,3 +43,4 @@ _(se completa durante las semanas 2 a 4)_
 | 3 | 2026-09-13 | 1bd03c8 | Cambios en html y configuración inicial css de caso 1  | caso1 | caso1/index.html y caso1/css/estilos.css |
 | 4 | 2026-09-13 | 44a6fa4 | Actualización CSS: Header y contenedores principales + Actualización de tabla de commits | caso1 | caso1/index.html y caso1/css/estilos.css
 | 5 | 2026-09-13 | 3c19b5c | Actualización CSS y HTML: Resumen de operaciones y Misiones activas | caso1 | caso1/index.html y caso1/css/estilos.css
+| 6 | 2026-09-14 | 335833f |  Actualización CSS y HTML: Equipos operativos | caso1 | caso1/index.html y caso1/css/estilos.css
