@@ -69,4 +69,6 @@ Se evita el uso de pixeles como medida, pues es estático y podría causar probl
 | 8 | 2026-09-15 | e0cb0cb | Se agregan las imágenes a la carpeta img del caso 1 y se edita el html | caso1 | caso1/index.html y caso1/img
 | 9 | 2026-09-15 | 6cf287b | Cambios finales en HTML y CSS + Actualización del README.md con respecto al Caso 1 | Global y caso1 | caso1/index.html, caso1/css, README.md
 | 10 | 2026-09-15 | 705a583 | Avance de caso 2 - html: header, sección ahora, footer | caso2 | caso2/index.html
-| 12 | 2026-09-16 | d644771 | Cambios en HTML: próximas actividades, avisos e información importante | caso2 | caso2/index.html
+| 11 | 2026-09-16 | d644771 | Cambios en HTML: próximas actividades, avisos e información importante | caso2 | caso2/index.html
+| 12 | 2026-09-16 | ef11b5a | Actualización HTML: servicios y escenarios, reacomodo de la información y correcciones | caso2 | caso2/index.html
+
