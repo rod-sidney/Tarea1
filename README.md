@@ -71,4 +71,4 @@ Se evita el uso de pixeles como medida, pues es estático y podría causar probl
 | 10 | 2026-09-15 | 705a583 | Avance de caso 2 - html: header, sección ahora, footer | caso2 | caso2/index.html
 | 11 | 2026-09-16 | d644771 | Cambios en HTML: próximas actividades, avisos e información importante | caso2 | caso2/index.html
 | 12 | 2026-09-16 | ef11b5a | Actualización HTML: servicios y escenarios, reacomodo de la información y correcciones | caso2 | caso2/index.html
-
+| 13 | 2026-09-16 | 6205a04 | Se agregan placeholders para las imagenes y se agregan íconos al HTML, se crea la configuración inicial del CSS | caso2 | caso2/index.html
