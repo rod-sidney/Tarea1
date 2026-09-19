@@ -73,4 +73,6 @@ Se evita el uso de pixeles como medida, pues es estático y podría causar probl
 | 12 | 2026-09-16 | ef11b5a | Actualización HTML: servicios y escenarios, reacomodo de la información y correcciones | caso2 | caso2/index.html
 | 13 | 2026-09-16 | 6205a04 | Se agregan placeholders para las imagenes y se agregan íconos al HTML, se crea la configuración inicial del CSS | caso2 | caso2/index.html y caso2/css/estilos.css
 | 14 | 2026-09-18 | d842785 | Correcciones del HTML y se desarrolla las partes generales, header, nav, ocurriendo ahora y proximas actividades | caso2 | caso2/index.html y caso2/css/estilos.css
+| 15 | 2026-09-18 | 4dbaa49 | Se añaden imágenes faltantes al HTML y se hacen correcciones en el css, no se agrega nuevo contenido | caso2 | caso2/index.html y caso2/css/estilos.css
+
 
