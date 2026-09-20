@@ -12,16 +12,19 @@
 
 <body>
 
-    <header>
+    <header class="main-header">
 
-        <h1>Horizon Festival 2026</h1>
-        <p>
-            <strong>Fecha:</strong> 14 al 16 de Noviembre <br>
-            <strong>Ubicación:</strong> Centro de Eventos Pedregal <br>
-            <strong>Horario:</strong> 10:00 h a 23:00 h
-        </p>
+        <div class="info-festival">
+            <h1>Horizon Festival 2026</h1>
+            <p class="detalles-festival">
+                <span><strong>Fecha:</strong> 14-16 de Noviembre</span>
+                <span><strong>Ubicación:</strong> Centro de Eventos Pedregal</span>
+                <span><strong>Horario:</strong> 10:00 h a 23:00 h</span>
+            </p>
 
-        <nav aria-label="Navegación del festival">
+        </div>
+
+        <nav aria-label="navegación-del festival">
 
             <ul>
                 <li><a href="#ahora">Ahora</a></li>
@@ -46,7 +49,7 @@
                 <article class="actividad-vivo tarjeta-derecha">
                     <div class="info-texto">
                         <h3>Los Viajeros</h3>
-                        <p><strong>Escenario:</strong> Central</p>
+                        <p><strong>Lugar:</strong> Escenario Principal</p>
                         <p><strong>Horario:</strong> <time>14:00</time> - <time>15:00</time></p>
                     </div>
                     <img src="img/losviajerosmusica.jpg" alt="Banda Los Viajeros en vivo" class="img">
@@ -54,11 +57,29 @@
 
                 <article class="actividad-vivo tarjeta-derecha">
                     <div class="info-texto">
-                        <h3>Raíces del Mundo</h3>
-                        <p><strong>Escenario:</strong> Teatro</p>
+                        <h3>El Triciclo</h3>
+                        <p><strong>Lugar:</strong> Teatro</p>
                         <p><strong>Horario:</strong> <time>14:30</time> - <time>15:30</time></p>
                     </div>
-                    <img src="img/raicesdelmundoteatro.jpg" alt="Interpretación de obra de teatro" class="img">
+                    <img src="img/eltricicloteatro.jpg" alt="Interpretación de obra de teatro" class="img">
+                </article>
+
+                <article class="actividad-vivo tarjeta-derecha">
+                    <div class="info-texto">
+                        <h3>Cuentacuentos Mágicos</h3>
+                        <p><strong>Lugar:</strong> Zona Familiar</p>
+                        <p><strong>Horario:</strong> <time>14:00</time> - <time>15:30</time></p>
+                    </div>
+                    <img src="img/cuentacuentosfamiliar.jpg" alt="Niños disfrutando cuentos" class="img">
+                </article>
+
+                <article class="actividad-vivo tarjeta-derecha">
+                    <div class="info-texto">
+                        <h3>Raíces del Mundo</h3>
+                        <p><strong>Lugar:</strong> Zona Cultural</p>
+                        <p><strong>Horario:</strong> <time>14:30</time> - <time>15:30</time></p>
+                    </div>
+                    <img src="img/raicesdelmundocultural.jpg" alt="Actividad cultural raíces del mundo" class="img">
                 </article>
 
             </div>
@@ -75,7 +96,7 @@
                     <img src="img/tallerdanzapopular.jpg" alt="Taller de danza popular" class="img">
                     <div class="info-texto">
                         <p><strong>Hora:</strong> <time>15:30</time></p>
-                        <p><strong>Escenario:</strong> Zona cultural</p>
+                        <p><strong>Lugar:</strong> Zona cultural</p>
                         <h3>Taller de danza popular</h3>
                     </div>
                 </article>
@@ -84,8 +105,44 @@
                     <img src="img/sinfonicajuvenil.jpg" alt="Presentación de la sinfónica juvenil" class="img">
                     <div class="info-texto">
                         <p><strong>Hora:</strong> <time>16:00</time></p>
-                        <p><strong>Escenario:</strong> Teatro</p>
+                        <p><strong>Lugar:</strong> Principal</p>
                         <h3>Sinfónica Juvenil</h3>
+                    </div>
+                </article>
+
+                <article class="actividad-proxima tarjeta-izquierda">
+                    <img src="img/lavidamismateatro.jpg" alt="Presentación de monólogo teatral" class="img">
+                    <div class="info-texto">
+                        <p><strong>Hora:</strong> <time>16:15</time></p>
+                        <p><strong>Lugar:</strong> Escenario Principal</p>
+                        <h3>Monólogo: La Vida Misma</h3>
+                    </div>
+                </article>
+
+                <article class="actividad-proxima tarjeta-izquierda">
+                    <img src="img/bandaecosmusica.jpg" alt="Presentación de la banda Ecos" class="img">
+                    <div class="info-texto">
+                        <p><strong>Hora:</strong> <time>18:00</time></p>
+                        <p><strong>Lugar:</strong> Escenario Principal</p>
+                        <h3>Banda Ecos</h3>
+                    </div>
+                </article>
+
+                <article class="actividad-proxima tarjeta-izquierda">
+                    <img src="img/masterclassasadoscultural.jpg" alt="Clase de asados" class="img">
+                    <div class="info-texto">
+                        <p><strong>Hora:</strong> <time>15:30</time></p>
+                        <p><strong>Lugar:</strong> Zona Cultural</p>
+                        <h3>Masterclass de Asados</h3>
+                    </div>
+                </article>
+
+                <article class="actividad-proxima tarjeta-izquierda">
+                    <img src="img/tallertiteresfamiliar.jpg" alt="Niños en un taller de títeres" class="img">
+                    <div class="info-texto">
+                        <p><strong>Hora:</strong> <time>17:00</time></p>
+                        <p><strong>Lugar:</strong> Zona Familiar</p>
+                        <h3>Taller de títeres</h3>
                     </div>
                 </article>
 
@@ -101,7 +158,7 @@
 
                 <section aria-labelledby="escenario-central" class="escenario">
 
-                    <h3 id="escenario-central">Escenario Central</h3>
+                    <h3 id="escenario-central">Escenario Principal</h3>
 
                     <ul>
                         <li><time>14:00</time> - Los Viajeros</li>
@@ -173,7 +230,7 @@
 
         </section>
 
-        <aside id="informacion" aria-labelledby="titulo-informacion">
+        <aside id="informacion" aria-labelledby="titulo-informacion" class="avisos-e-info">
 
             <h2 id="titulo-informacion">Avisos e Información Importante</h2>
 
