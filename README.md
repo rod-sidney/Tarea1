@@ -36,7 +36,7 @@ Abrir `caso1/index.html` o `caso2/index.html` en el navegador. No requiere insta
  
 ### Caso 1:
 Selección de etiquetas semánticas
-En lugar de usar muchos div, se estructuró el HTML con etiquetas semánticas (<main>, <section>, <article>, <aside>) para darle un sentido lógico al contenido. Se mantuvo una jerarquía de usar solo un <h1> para el título del sitio, <h2> para separar las secciones y <h3> para los títulos dentro de las tarjetas, como se vió en clase.
+En lugar de usar muchos div, se estructuró el HTML con etiquetas semánticas (main, section, article, aside) para darle un sentido lógico al contenido. Se mantuvo una jerarquía de usar solo un h1 para el título del sitio, h2 para separar las secciones y h3 para los títulos dentro de las tarjetas, como se vió en clase.
 
 Accesibilidad
 Se agrega lang="es", se conectan las secciones con sus respectivos títulos usando aria-labelledby, y se utilizaron atributos alt para las descripciones de las imágenes en la galería. Además, los estados de las misiones, por ejemplo, incluyen texto explícito (ejemplo: "En progreso") para no depender solo de colores.
@@ -59,7 +59,7 @@ Se evita el uso de pixeles como medida, pues es estático y podría causar probl
 
 ### Caso 2:
 Selección de etiquetas semánticas
-Se estructuró utilizando etiquetas semánticas HTML5 como <main>, <section>, <article>, <aside>, <header> y <footer> para que tenga un sentido lógico. La etiqueta <time> se utiliza para especificar correctamente las horas de las actividades y se usa un único h1> para el nombre del festival, <h2> para delimitar las áreas principales y <h3> para los nombres de actividades y escenarios.
+Se estructuró utilizando etiquetas semánticas HTML5 como main, section, article, aside, header y footer para que tenga un sentido lógico. La etiqueta time se utiliza para especificar correctamente las horas de las actividades y se usa un único h1> para el nombre del festival, h2 para delimitar las áreas principales y h3 para los nombres de actividades y escenarios.
 
 Accesibilidad
 Se configura lang="es", se utiliza aria-labelledby para mejorar la navegación y las imágenes tienen atributos alt descriptivos, también se usa aria-label para el nav.
@@ -100,4 +100,5 @@ Se evitó el uso de píxeles para el dimensionamiento estático, se usa rem para
 | 15 | 2026-09-18 | 4dbaa49 | Se añaden imágenes faltantes al HTML y se hacen correcciones en el css, no se agrega nuevo contenido | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
 | 16 | 2026-09-18 | 5f8e4e2 | Se crean los estilos de la sección programación por escenarios en el CSS | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
 | 17 | 2026-09-20 | 0416833 | Se crean los estilos en CSS de las secciones servicios y avisos | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
-| 18 | 2026-09-20 | d842785 | Actualización final de tabla de commits | Ambos | caso2 | caso2/index.html y caso2/css/estilos.css
+| 18 | 2026-09-20 | d842785 | Actualización final de tabla de commits | Ambos | Global | README.md
+| 19 | 2026-09-20 | d842785 | Corrección de README" | Ambos | Global | README.md
