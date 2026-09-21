@@ -1,12 +1,14 @@
 # Tarea 1
 
-Tarea del curso SOFT-12-C1 -- Programación Web Avanzada
+**Curso:** SOFT-12-C1 -- Programación Web Avanzada
 
 **Estudiante:** Sidney Rodríguez
 
-**Seccion:** SCV2   **Periodo:** III Cuatrimestre 2026
+**Sección:** SCV2   **Periodo:** III Cuatrimestre 2026
 
 **Docente:** Álvaro Cordero Peña
+
+**Fecha de entrega:** 20 de septiembre de 2026
 
 ## Descripción
 
@@ -79,22 +81,23 @@ Se evitó el uso de píxeles para el dimensionamiento estático, se usa rem para
  
 ## Resumen de commits
 
-| # | Fecha | Hash | Mensaje | Zona | Cambio |
+| # | Fecha | Hash | Mensaje | Caso | Zona | Cambio |
 |---|---|---|---|---|---|
-| 1 | 2026-09-08 | b41614f | Creación de la estructura base del repositorio | Global | Carpetas |
-| 2 | 2026-09-11 | d2fd141 | Avance de caso 1 - html:  header, resumen de operaciones, misiones activas | caso1 | caso1/index.html |
-| 3 | 2026-09-13 | 1bd03c8 | Cambios en html y configuración inicial css de caso 1  | caso1 | caso1/index.html y caso1/css/estilos.css |
-| 4 | 2026-09-13 | 44a6fa4 | Actualización CSS: Header y contenedores principales + Actualización de tabla de commits | caso1 | caso1/index.html y caso1/css/estilos.css
-| 5 | 2026-09-13 | 3c19b5c | Actualización CSS y HTML: Resumen de operaciones y Misiones activas | caso1 | caso1/index.html y caso1/css/estilos.css
-| 6 | 2026-09-14 | 335833f | Actualización CSS y HTML: Equipos operativos | caso1 | caso1/index.html y caso1/css/estilos.css
-| 7 | 2026-09-15 | 2d8adc7 | Actualizaciones y correcciones HTML y CSS | caso1 | caso1/index.html y caso1/css/estilos.css
-| 8 | 2026-09-15 | e0cb0cb | Se agregan las imágenes a la carpeta img del caso 1 y se edita el html | caso1 | caso1/index.html y caso1/img
-| 9 | 2026-09-15 | 6cf287b | Cambios finales en HTML y CSS + Actualización del README.md con respecto al Caso 1 | Global y caso1 | caso1/index.html, caso1/css, README.md
-| 10 | 2026-09-15 | 705a583 | Avance de caso 2 - html: header, sección ahora, footer | caso2 | caso2/index.html
-| 11 | 2026-09-16 | d644771 | Cambios en HTML: próximas actividades, avisos e información importante | caso2 | caso2/index.html
-| 12 | 2026-09-16 | ef11b5a | Actualización HTML: servicios y escenarios, reacomodo de la información y correcciones | caso2 | caso2/index.html
-| 13 | 2026-09-16 | 6205a04 | Se agregan placeholders para las imagenes y se agregan íconos al HTML, se crea la configuración inicial del CSS | caso2 | caso2/index.html y caso2/css/estilos.css
-| 14 | 2026-09-18 | d842785 | Correcciones del HTML y se desarrolla las partes generales, header, nav, ocurriendo ahora y proximas actividades | caso2 | caso2/index.html y caso2/css/estilos.css
-| 15 | 2026-09-18 | 4dbaa49 | Se añaden imágenes faltantes al HTML y se hacen correcciones en el css, no se agrega nuevo contenido | caso2 | caso2/index.html y caso2/css/estilos.css
-| 16 | 2026-09-18 | 5f8e4e2 | Se crean los estilos de la sección programación por escenarios en el CSS | caso2 | caso2/index.html y caso2/css/estilos.css
-| 17 | 2026-09-20 | 0416833 | Se crean los estilos en CSS de las secciones servicios y avisos | caso2 | caso2/index.html y caso2/css/estilos.css
+| 1 | 2026-09-08 | b41614f | Creación de la estructura base del repositorio | Ambos | Global | Carpetas |
+| 2 | 2026-09-11 | d2fd141 | Avance de caso 1 - html:  header, resumen de operaciones, misiones activas | Caso 1 | caso1 | caso1/index.html |
+| 3 | 2026-09-13 | 1bd03c8 | Cambios en html y configuración inicial css de caso 1 | Caso 1 | caso1 | caso1/index.html y caso1/css/estilos.css |
+| 4 | 2026-09-13 | 44a6fa4 | Actualización CSS: Header y contenedores principales + Actualización de tabla de commits | Caso 1 | caso1 | caso1/index.html y caso1/css/estilos.css
+| 5 | 2026-09-13 | 3c19b5c | Actualización CSS y HTML: Resumen de operaciones y Misiones activas | Caso 1 | caso1 | caso1/index.html y caso1/css/estilos.css
+| 6 | 2026-09-14 | 335833f | Actualización CSS y HTML: Equipos operativos | Caso 1 | caso1 | caso1/index.html y caso1/css/estilos.css
+| 7 | 2026-09-15 | 2d8adc7 | Actualizaciones y correcciones HTML y CSS | Caso 1 | caso1 | caso1/index.html y caso1/css/estilos.css
+| 8 | 2026-09-15 | e0cb0cb | Se agregan las imágenes a la carpeta img del caso 1 y se edita el html | Caso 1 | caso1 | caso1/index.html y caso1/img
+| 9 | 2026-09-15 | 6cf287b | Cambios finales en HTML y CSS + Actualización del README.md con respecto al Caso 1 | Caso 1 | Global y caso1 | caso1/index.html, caso1/css, README.md
+| 10 | 2026-09-15 | 705a583 | Avance de caso 2 - html: header, sección ahora, footer | Caso 2 | caso2 | caso2/index.html
+| 11 | 2026-09-16 | d644771 | Cambios en HTML: próximas actividades, avisos e información importante | Caso 2 | caso2 | caso2/index.html
+| 12 | 2026-09-16 | ef11b5a | Actualización HTML: servicios y escenarios, reacomodo de la información y correcciones | Caso 2 | caso2 | caso2/index.html
+| 13 | 2026-09-16 | 6205a04 | Se agregan placeholders para las imagenes y se agregan íconos al HTML, se crea la configuración inicial del CSS | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
+| 14 | 2026-09-18 | d842785 | Correcciones del HTML y se desarrolla las partes generales, header, nav, ocurriendo ahora y proximas actividades | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
+| 15 | 2026-09-18 | 4dbaa49 | Se añaden imágenes faltantes al HTML y se hacen correcciones en el css, no se agrega nuevo contenido | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
+| 16 | 2026-09-18 | 5f8e4e2 | Se crean los estilos de la sección programación por escenarios en el CSS | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
+| 17 | 2026-09-20 | 0416833 | Se crean los estilos en CSS de las secciones servicios y avisos | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
+| 18 | 2026-09-20 | d842785 | Actualización final de tabla de commits | Ambos | caso2 | caso2/index.html y caso2/css/estilos.css
