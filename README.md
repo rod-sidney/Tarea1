@@ -54,6 +54,28 @@ El CSS se inicia pensando en cómo se debe ver la página desde un celular, lueg
 
 Variables y unidades relativas
 Se evita el uso de pixeles como medida, pues es estático y podría causar problemas para adaptarse a diferentes pantallas. Se emplea principalmente rem para fuentes y espaciados, y % y fr para hacer las cajas. Además, se centraliza la paleta de colores y los espacios en el bloque :root con variables CSS, lo cual ayuda a mantener la consistencia del diseño de la página.
+
+### Caso 2:
+Selección de etiquetas semánticas
+Se estructuró utilizando etiquetas semánticas HTML5 como <main>, <section>, <article>, <aside>, <header> y <footer> para que tenga un sentido lógico. La etiqueta <time> se utiliza para especificar correctamente las horas de las actividades y se usa un único h1> para el nombre del festival, <h2> para delimitar las áreas principales y <h3> para los nombres de actividades y escenarios.
+
+Accesibilidad
+Se configura lang="es", se utiliza aria-labelledby para mejorar la navegación y las imágenes tienen atributos alt descriptivos, también se usa aria-label para el nav.
+
+Modelo de caja y cascada CSS
+Se estableció box-sizing: border-box en el para evitar el desbordamiento. La hoja de estilos mantiene una especificidad baja, evita el uso de !important y centraliza los colores (como el morado, rosado, celeste y verde) y los espaciados dentro del bloque :root para asegurar un diseño consistente y fácil de mantener.
+
+Posicionamiento
+Se aplicó position: sticky con un z-index: 100 y top: 0 al .main-header, permitiendo que el título del festival, los detalles principales y el menú de navegación permanezcan siempre visibles en la parte superior de la pantalla mientras el usuario hace scroll para explorar la programación.
+
+Grid y Flexbox
+Se empleó Flexbox para alinear elementos en una sola dimensión, facilitando el centrado del header y la distribución del menú de navegación, también la alineación de los íconos dentro de las tarjetas de servicios. CSS Grid se utilizó para las cuadrículas bidimensionales; especialmente en la versión de escritorio de 64rem, donde la propiedad grid-template-areas permitió reestructurar el layout general para ubicar el panel de avisos (#informacion) como una columna lateral fija de 22rem a la derecha.
+
+Mobile-First y Media Queries
+El diseño parte de una estructura base en una sola columna optimizada para dispositivos móviles. Existen dos breakpoints principales (a las 48rem y 64rem). En tamaños de escritorio, el interior de las tarjetas de actividades (.actividad-vivo, .actividad-proxima) pasa de una dirección vertical a horizontal (flex-direction: row), repartiendo el espacio entre un 45% para la imagen y un 55% para el texto, no solo cambia la estructura del layout principal.
+
+Variables e imágenes vectoriales
+Se evitó el uso de píxeles para el dimensionamiento estático, se usa rem para fuentes y espaciados, para que se adapte a las pantallas. Además, para la sección de servicios, los íconos se integraron como archivos SVG en línea codificados en formato base (data:image/svg+xml) directamente en el CSS, definiendo su tamaño con la unidad relativa em.
  
 ## Resumen de commits
 
@@ -75,3 +97,4 @@ Se evita el uso de pixeles como medida, pues es estático y podría causar probl
 | 14 | 2026-09-18 | d842785 | Correcciones del HTML y se desarrolla las partes generales, header, nav, ocurriendo ahora y proximas actividades | caso2 | caso2/index.html y caso2/css/estilos.css
 | 15 | 2026-09-18 | 4dbaa49 | Se añaden imágenes faltantes al HTML y se hacen correcciones en el css, no se agrega nuevo contenido | caso2 | caso2/index.html y caso2/css/estilos.css
 | 16 | 2026-09-18 | 5f8e4e2 | Se crean los estilos de la sección programación por escenarios en el CSS | caso2 | caso2/index.html y caso2/css/estilos.css
+| 17 | 2026-09-20 | 0416833 | Se crean los estilos en CSS de las secciones servicios y avisos | caso2 | caso2/index.html y caso2/css/estilos.css

@@ -111,7 +111,15 @@ main {
   gap: var(--espaciado-xl);
   max-width: var(--max-width-container);
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
+
+#ahora { order: 1; }
+#programacion { order: 2; }
+#informacion { order: 3; }
+#servicios { order: 4; }
+#escenarios { order: 5; }
 
 section h2,
 aside h2 {
@@ -183,22 +191,36 @@ aside h2 {
 }
 
 /* servicios */
-.lista-servicios {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+.contenedor-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--espaciado-md);
-  justify-content: center;
+  margin-top: var(--espaciado-md);
 }
 
-.lista-servicios li {
-  background-color: var(--color-oscuro);
-  color: var(--color-claro);
-  padding: var(--espaciado-sm) var(--espaciado-md);
-  border-radius: 2rem;
+.tarjeta-servicio {
+  background-color: var(--color-celeste);
+  border: 2px solid var(--color-oscuro);
+  border-radius: 1rem;
+  padding: var(--espaciado-md);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--espaciado-sm);
+  transition: transform 0.2s;
+}
+
+.icono-servicio {
+  font-size: 2rem;
+  color: var(--color-morado);
+  flex-shrink: 0;
+}
+
+.texto-servicio h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.texto-servicio p {
   font-size: 0.9rem;
 }
 
@@ -208,7 +230,7 @@ aside h2 {
   border-left: 5px solid #ffecb5;
   padding: var(--espaciado-md);
   margin-bottom: var(--espaciado-md);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 #informacion .aviso h3 {
