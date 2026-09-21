@@ -100,5 +100,6 @@ Se evitó el uso de píxeles para el dimensionamiento estático, se usa rem para
 | 15 | 2026-09-18 | 4dbaa49 | Se añaden imágenes faltantes al HTML y se hacen correcciones en el css, no se agrega nuevo contenido | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
 | 16 | 2026-09-18 | 5f8e4e2 | Se crean los estilos de la sección programación por escenarios en el CSS | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
 | 17 | 2026-09-20 | 0416833 | Se crean los estilos en CSS de las secciones servicios y avisos | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
-| 18 | 2026-09-20 | d842785 | Actualización final de tabla de commits | Ambos | Global | README.md
-| 19 | 2026-09-20 | d842785 | Corrección de README" | Ambos | Global | README.md
+| 18 | 2026-09-20 | 6822db9 | Correcciones finales en HTML y CSS en sección de mapa y servicios disponibles, avisos e información importante, programación por escenarios, próximas actividades y ocurriendo ahora | Caso 2 | caso2 | caso2/index.html y caso2/css/estilos.css
+| 19 | 2026-09-20 | c5d82f7 | Actualización final de tabla de commits | Ambos | Global | README.md
+| 20 | 2026-09-20 | e91fda0 | Corrección de README" | Ambos | Global | README.md
